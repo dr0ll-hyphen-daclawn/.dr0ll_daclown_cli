@@ -1,0 +1,33 @@
+{
+  "name": "dr0ll_daclown_cli",
+  "version": "1.0.0",
+  "description": "A CLI for @dr0ll_daclown system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ddc": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr0ll-hyphen-daclawn/.dr0ll_daclown_cli.git"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Fong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dr0ll-hyphen-daclawn/.dr0ll_daclown_cli/issues"
+  },
+  "homepage": "https://github.com/dr0ll-hyphen-daclawn/.dr0ll_daclown_cli#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "isomorphic-git": "^1.21.0",
+    "node-fetch": "^3.2.10",
+    "yargs": "^17.5.1"
+  }
+}
